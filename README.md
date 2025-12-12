@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm [ANkit]
 
 🚀 **Aspiring Software Developer | DSA Enthusiast | Open Source Learner**
 
