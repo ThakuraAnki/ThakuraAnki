@@ -14,7 +14,8 @@ Welcome to my GitHub! I’m currently pursuing a **BCA** degree and building my 
 ## 🛠️ Tech Stack
 - **Languages:** C++, Python, SQL  
 - **Core CS:** Data Structures, Algorithms, OS, DBMS  
-- **Tools:** Git, GitHub, VS Code, Linux Terminal  
+- **Tools:** Git, GitHub, VS Code, Linux Terminal
+- **Web di:** Html, Css(Bootstrap), Java Script(NodeJs), 
 
 ## 📈 Current Goals
 - Master advanced algorithms and problem-solving patterns  
