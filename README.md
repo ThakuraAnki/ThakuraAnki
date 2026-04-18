@@ -24,8 +24,9 @@ Welcome to my GitHub! I’m currently pursuing a **BCA** degree and building my 
 
 ## 📫 Connect With Me
 - 🌐 [GitHub Profile](https://github.com/your-username)  
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)  
-- ✉️ Email: yourname@example.com  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ankit-thakur-009285388/)  
+- ✉️ Email: ankit004thakur@gmail.com , codeankit.thakur@gmail.com
+
 
 ---
 
