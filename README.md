@@ -61,7 +61,7 @@ I'm currently pursuing a **BCA** degree and building my skills in **Data Structu
 <div align="center">
 
 <a href="https://github.com/your-username">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="[https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://imgs.search.brave.com/pqIKoIm7ZMZppyl-0tYln5LBslkQ8ewejfKwBzFzmWQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjE2VE0zWldrWkwu/anBn)"/>
 </a>
 <a href="https://www.linkedin.com/in/ankit-thakur-009285388/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
