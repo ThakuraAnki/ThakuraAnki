@@ -78,7 +78,7 @@ I'm currently pursuing a **BCA** degree and building my skills in **Data Structu
 
 <br/><br/>
 
-<!-- Needs the snake.yml GitHub Action (see setup notes) -->
+<!-- Needs the GitHub Action from the setup notes at the very bottom of this file -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/your-username/your-username/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/your-username/your-username/output/github-snake.svg" />
@@ -158,3 +158,64 @@ I'm currently pursuing a **BCA** degree and building my skills in **Data Structu
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:534AB7,100:378ADD&height=100&section=footer" width="100%"/>
 
 </div>
+
+<!--
+==================== SETUP NOTES ====================
+This comment is invisible on your GitHub profile. You can delete it
+once everything is set up.
+
+1. Replace every "your-username" in this file with your GitHub username.
+   (Your profile repo must be named exactly the same as your username.)
+
+2. Replace "your-leetcode-username", or delete the
+   "Competitive Programming" section.
+
+3. SNAKE ANIMATION (the only part that needs one extra file):
+   - In this same repo, create the file:  .github/workflows/snake.yml
+   - Paste the workflow below into it and commit.
+   - Go to the Actions tab > "Generate Snake Animation" > Run workflow (once).
+   - It creates an "output" branch holding the SVGs, and the snake
+     above starts showing. It then refreshes every 12 hours.
+   - Until it has run once, the snake image will look broken.
+
+Workflow to paste into .github/workflows/snake.yml:
+
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+NOTE: the github-readme-stats cards run on a free public server that
+sometimes rate-limits. If a card shows an error, refresh later or
+deploy your own copy.
+=====================================================
+-->
